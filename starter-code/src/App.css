@@ -1,7 +1,7 @@
 
 .navbar{
   height: 50px;
-  background-color: blue;
+  background-color: rgb(45, 197, 250);
   display: flex;
   justify-content: center;
   text-align: center;
@@ -11,4 +11,33 @@
 .navbar>i {
   margin: 0 auto;
   color: white;
+}
+
+.card-title{
+  color: black;
+}
+
+.card-text{
+  font-size: 0.6rem;
+  color: grey;
+}
+
+.container-beer-list{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 10px;
+  border-bottom: 1px solid grey;
+}
+
+.container-beer-list img{
+  width: 40px;
+}
+
+.container-beer-list p {
+  font-size: 0.5rem;
+}
+
+.beer-description{
+  width: 60%;
 }

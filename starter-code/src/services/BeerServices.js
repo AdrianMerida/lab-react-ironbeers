@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const http = axios.create({baseURL: process.env.URL})
+const http = axios.create({baseURL: 'https://ih-beers-api2.herokuapp.com/beers'})
 
 const list = () => http.get('/').then(res => res.data)
 const random = () => http.get('/random').then(res => res.data)
