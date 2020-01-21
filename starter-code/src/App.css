@@ -1,1 +1,14 @@
 
+.navbar{
+  height: 50px;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+}
+
+.navbar>i {
+  margin: 0 auto;
+  color: white;
+}
