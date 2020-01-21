@@ -17,7 +17,7 @@ class BeerList extends Component {
         return ( 
             <div>
                 <Nav/>
-                {this.state.beers.map(beer => <Beer beer={beer} />)}
+                {this.state.beers.map(beer => <Beer key={beer._id} beer={beer} />)}
             </div>
          );
     }

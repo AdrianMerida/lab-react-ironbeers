@@ -28,7 +28,9 @@
   align-items: center;
   margin-bottom: 10px;
   border-bottom: 1px solid grey;
+  text-decoration: none;
 }
+
 
 .container-beer-list img{
   width: 40px;
@@ -36,6 +38,7 @@
 
 .container-beer-list p {
   font-size: 0.5rem;
+  color: grey;
 }
 
 .beer-description{
